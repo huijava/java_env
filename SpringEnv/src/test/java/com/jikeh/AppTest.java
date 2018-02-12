@@ -3,7 +3,6 @@ package com.jikeh;
 /**
  * Unit test for simple App.
  */
-
 import com.jikeh.Service.UserService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
