@@ -16,7 +16,7 @@
         <resource.path>${basedir}/src/main/resources</resource.path>
         <resource.include>*.*</resource.include>
 
-        <spring.version>4.3.13.RELEASE</spring.version>
+        <spring.version>4.3.14.RELEASE</spring.version>
         <commons-dbcp.version>1.4</commons-dbcp.version>
     </properties>
 
