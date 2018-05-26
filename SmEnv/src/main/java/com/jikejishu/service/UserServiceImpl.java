@@ -15,10 +15,12 @@ public class UserServiceImpl implements IUserService {
 	private UserMapper userMapper;
 
 	public User getUserInfoById(int id) {
+		LOGGER.info("极客慧");
 		return userMapper.selectByPrimaryKey(id);
 	}
 
 	public User getUserInfo(int gender, int age) {
+		LOGGER.info("www.jikeh.cn");
 		User user = new User();
 		user.setGender(1);
 		user.setAge(28);
