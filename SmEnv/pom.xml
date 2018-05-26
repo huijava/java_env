@@ -14,22 +14,16 @@
     </properties>
 
     <dependencies>
-        <!-- 对应junte整合spring -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>4.2.4.RELEASE</version>
-        </dependency>
-        <!-- springmvc框架jar -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-            <version>4.2.4.RELEASE</version>
-        </dependency>
         <!-- spring非常核心的jar，依赖注入，控制反转 -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
+            <version>4.2.4.RELEASE</version>
+        </dependency>
+        <!-- 对应junte整合spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
             <version>4.2.4.RELEASE</version>
         </dependency>
         <!-- mybatis操作数据库jar -->
@@ -50,13 +44,6 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.21</version>
         </dependency>
-        <!-- 单元测试jar -->
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.11</version>
-            <!--<scope>test</scope>-->
-        </dependency>
         <!-- 阿里巴巴数据连接池jar包 -->
         <dependency>
             <groupId>com.alibaba</groupId>
@@ -68,6 +55,13 @@
             <groupId>log4j</groupId>
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
+        </dependency>
+        <!-- 单元测试jar -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <!--<scope>test</scope>-->
         </dependency>
         <!-- json解析框架 -->
         <dependency>
