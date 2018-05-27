@@ -5,3 +5,6 @@
 /SmEnv/target
 /SmEnv/mybatis.log
 /SmEnv/SmEnv.iml
+/SsmEnv/.idea
+/SsmEnv/target
+SsmEnv/ssmRelease.iml
