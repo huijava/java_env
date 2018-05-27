@@ -2,7 +2,8 @@ package com.jikejishu.controller;
 
 import com.jikejishu.model.User;
 import com.jikejishu.service.IUserService;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -13,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 @Controller
 public class UserController {
 
-	private static Logger LOGGER = Logger.getLogger(UserController.class);
+	private static Logger LOGGER = LoggerFactory.getLogger(UserController.class);
 	/**
 	 * 跳转到查询车票价格页面
 	 */
